@@ -3,9 +3,9 @@ from flask import Flask, request, jsonify, render_template
 from geopy.geocoders import Nominatim
 
 # Configuration
-ORS_API_KEY = "5b3ce3597851110001cf6248f94a610ca0b04b0a979845b220b29acd"
-OPENWEATHER_API_KEY = "ea96c69aff8dab6f6b1be765c0ef4b8a"
-TOMTOM_API_KEY = "Y4d95dZrj0C8SsOqAXq6fUGqITwfFipU"  # Replace with your key
+ORS_API_KEY = "---------"
+OPENWEATHER_API_KEY = "---------"
+TOMTOM_API_KEY = "---------"  
 
 app = Flask(__name__)
 
